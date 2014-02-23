@@ -2,7 +2,6 @@ var app = require('./../server');
 
 var request = require('supertest').agent(app.listen());
 
-
 describe('GET /', function () {
   it('should work"', function (done) {
     request
